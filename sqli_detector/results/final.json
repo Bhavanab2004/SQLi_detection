@@ -1,0 +1,97 @@
+{
+  "obfuscated_counts": {
+    "MySQL versioned comments": 46,
+    "Hex / CHAR() literals": 15,
+    "Alternate whitespace": 141,
+    "Case mixing": 147,
+    "Triple URL encoding": 49,
+    "Quadruple URL encoding (extra)": 49
+  },
+  "models": {
+    "Logistic Regression": {
+      "fit_seconds": 9.2,
+      "size_mb_compressed": 1.9,
+      "holdout": {
+        "accuracy": 0.98989898989899,
+        "precision": 0.98,
+        "recall": 1.0,
+        "f1": 0.98989898989899,
+        "fpr": 0.02,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": {
+        "MySQL versioned comments": 1.0,
+        "Hex / CHAR() literals": 0.7333333333333333,
+        "Alternate whitespace": 1.0,
+        "Case mixing": 1.0,
+        "Triple URL encoding": 0.9795918367346939,
+        "Quadruple URL encoding (extra)": 0.12244897959183673
+      },
+      "base_payload_recall": 1.0
+    },
+    "LinearSVC": {
+      "fit_seconds": 8.0,
+      "size_mb_compressed": 2.7,
+      "holdout": {
+        "accuracy": 0.9292929292929293,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "fpr": 0.14,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": {
+        "MySQL versioned comments": 1.0,
+        "Hex / CHAR() literals": 0.7333333333333333,
+        "Alternate whitespace": 1.0,
+        "Case mixing": 1.0,
+        "Triple URL encoding": 0.9795918367346939,
+        "Quadruple URL encoding (extra)": 0.30612244897959184
+      },
+      "base_payload_recall": 1.0
+    },
+    "Random Forest": {
+      "fit_seconds": 30.9,
+      "size_mb_compressed": 7.91,
+      "holdout": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": {
+        "MySQL versioned comments": 1.0,
+        "Hex / CHAR() literals": 0.8666666666666667,
+        "Alternate whitespace": 0.9929078014184397,
+        "Case mixing": 1.0,
+        "Triple URL encoding": 0.9795918367346939,
+        "Quadruple URL encoding (extra)": 0.2653061224489796
+      },
+      "base_payload_recall": 1.0
+    },
+    "XGBoost": {
+      "fit_seconds": 118.1,
+      "size_mb_compressed": 1.76,
+      "holdout": {
+        "accuracy": 0.9595959595959596,
+        "precision": 0.9591836734693877,
+        "recall": 0.9591836734693877,
+        "f1": 0.9591836734693877,
+        "fpr": 0.04,
+        "fnr": 0.04081632653061224
+      },
+      "obfuscated_recall": {
+        "MySQL versioned comments": 0.9782608695652174,
+        "Hex / CHAR() literals": 0.8666666666666667,
+        "Alternate whitespace": 0.9574468085106383,
+        "Case mixing": 0.9591836734693877,
+        "Triple URL encoding": 0.9387755102040817,
+        "Quadruple URL encoding (extra)": 0.5306122448979592
+      },
+      "base_payload_recall": 0.9591836734693877
+    }
+  },
+  "external_dataset": null
+}

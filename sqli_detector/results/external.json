@@ -1,0 +1,432 @@
+{
+  "dataset": "CSIC 2010",
+  "n_requests": 61065,
+  "n_valid": 36000,
+  "n_anomalous": 25065,
+  "unique_values": 30315,
+  "anomalous_without_scannable_fields": 0.21970875723119887,
+  "valid_without_scannable_fields": 0.5555555555555556,
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.6436747727830999,
+      "precision": 0.9709401709401709,
+      "recall": 0.13596648713345302,
+      "f1": 0.2385301837270341,
+      "fpr": 0.0028333333333333335,
+      "fnr": 0.864033512866547,
+      "recall_sqlish_anomalous": 0.9067961165048544,
+      "n_sqlish_anomalous": 2060,
+      "recall_anomalous_with_fields": 0.17425094590448922,
+      "recall_anomalous_without_fields": 0.0,
+      "fpr_valid_with_fields": 0.006375,
+      "examples_false_positive": [
+        [
+          "registro",
+          "melek",
+          "ri83l"
+        ],
+        [
+          "registro",
+          "melek",
+          "ri83l"
+        ],
+        [
+          "registro",
+          "okuzawa",
+          "139iar"
+        ],
+        [
+          "registro",
+          "okuzawa",
+          "139iar"
+        ],
+        [
+          "registro",
+          "zulema",
+          "av8ni52ra"
+        ],
+        [
+          "registro",
+          "zulema",
+          "av8ni52ra"
+        ],
+        [
+          "registro",
+          "rocheste5",
+          "Causuelo"
+        ],
+        [
+          "registro",
+          "rocheste5",
+          "Causuelo"
+        ]
+      ],
+      "examples_false_negative": [
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ]
+      ]
+    },
+    "LinearSVC": {
+      "accuracy": 0.6513059854253664,
+      "precision": 0.649445324881141,
+      "recall": 0.3269898264512268,
+      "f1": 0.43497412763699084,
+      "fpr": 0.1228888888888889,
+      "fnr": 0.6730101735487732,
+      "recall_sqlish_anomalous": 0.987378640776699,
+      "n_sqlish_anomalous": 2060,
+      "recall_anomalous_with_fields": 0.419061253706923,
+      "recall_anomalous_without_fields": 0.0,
+      "fpr_valid_with_fields": 0.2765,
+      "examples_false_positive": [
+        [
+          "Credenciales incorrectas"
+        ],
+        [
+          "Credenciales incorrectas"
+        ],
+        [
+          "registro",
+          "nataraja",
+          "d4upa"
+        ],
+        [
+          "registro",
+          "nataraja",
+          "d4upa"
+        ],
+        [
+          "Credenciales incorrectas"
+        ],
+        [
+          "Credenciales incorrectas"
+        ],
+        [
+          "entrar",
+          "walpole",
+          "6a6050ar"
+        ],
+        [
+          "entrar",
+          "walpole",
+          "6a6050ar"
+        ]
+      ],
+      "examples_false_negative": [
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "+"
+        ],
+        [
+          "+"
+        ],
+        [
+          "insertar",
+          "183",
+          "Pasar por caja/"
+        ],
+        [
+          "insertar",
+          "183",
+          "Pasar por caja/"
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.6428559731433718,
+      "precision": 0.9981640146878825,
+      "recall": 0.13014163175743068,
+      "f1": 0.23026153248861753,
+      "fpr": 0.00016666666666666666,
+      "fnr": 0.8698583682425693,
+      "recall_sqlish_anomalous": 0.9106796116504854,
+      "n_sqlish_anomalous": 2060,
+      "recall_anomalous_with_fields": 0.16678596993557623,
+      "recall_anomalous_without_fields": 0.0,
+      "fpr_valid_with_fields": 0.000375,
+      "examples_false_positive": [
+        [
+          "entrar",
+          "diradmin1",
+          "2ef4n4o7ar"
+        ],
+        [
+          "entrar",
+          "diradmin1",
+          "2ef4n4o7ar"
+        ],
+        [
+          "registro",
+          "yuri2",
+          "lin?6"
+        ],
+        [
+          "registro",
+          "yuri2",
+          "lin?6"
+        ],
+        [
+          "entrar",
+          "admin",
+          "gn\ufffdstic9"
+        ],
+        [
+          "entrar",
+          "admin",
+          "gn\ufffdstic9"
+        ]
+      ],
+      "examples_false_negative": [
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.6601162695488414,
+      "precision": 0.9425051334702259,
+      "recall": 0.18312387791741472,
+      "f1": 0.3066644396191749,
+      "fpr": 0.0077777777777777776,
+      "fnr": 0.8168761220825853,
+      "recall_sqlish_anomalous": 0.6116504854368932,
+      "n_sqlish_anomalous": 2060,
+      "recall_anomalous_with_fields": 0.23468657326925044,
+      "recall_anomalous_without_fields": 0.0,
+      "fpr_valid_with_fields": 0.0175,
+      "examples_false_positive": [
+        [
+          "registro",
+          "levasseu",
+          "F*ino"
+        ],
+        [
+          "registro",
+          "levasseu",
+          "F*ino"
+        ],
+        [
+          "entrar",
+          "xpmbuild",
+          "eXc971+Bl5"
+        ],
+        [
+          "entrar",
+          "xpmbuild",
+          "eXc971+Bl5"
+        ],
+        [
+          "registro",
+          "malee",
+          "0lu26d1"
+        ],
+        [
+          "registro",
+          "malee",
+          "0lu26d1"
+        ],
+        [
+          "registro",
+          "bryn",
+          "c4irlatar"
+        ],
+        [
+          "registro",
+          "bryn",
+          "c4irlatar"
+        ]
+      ],
+      "examples_false_negative": [
+        [
+          "2",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ]
+      ]
+    },
+    "libinjection": {
+      "accuracy": 0.6172111684270859,
+      "precision": 1.0,
+      "recall": 0.06742469579094355,
+      "f1": 0.12633152681741733,
+      "fpr": 0.0,
+      "fnr": 0.9325753042090564,
+      "recall_sqlish_anomalous": 0.8029126213592233,
+      "n_sqlish_anomalous": 2060,
+      "recall_anomalous_with_fields": 0.0864096533387872,
+      "recall_anomalous_without_fields": 0.0,
+      "fpr_valid_with_fields": 0.0,
+      "examples_false_positive": [],
+      "examples_false_negative": [
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "2/",
+          "Jam\ufffdn Ib\ufffdrico",
+          "85"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "bob@<SCRipt>alert(Paros)</scrIPT>.parosproxy.org",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "G//lAc,IAr"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ],
+        [
+          "entrar",
+          "grimshaw",
+          "84m3ri156"
+        ]
+      ]
+    }
+  },
+  "source": "https://github.com/msudol/Web-Application-Attack-Datasets (CSVData/csic_final.csv)",
+  "anomalous_with_sqlish_value_share": 0.08218631557949332,
+  "valid_with_sqlish_value_share": 0.0
+}

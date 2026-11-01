@@ -1,0 +1,14 @@
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+matplotlib
+xgboost
+libinjection-python
+fastapi
+uvicorn
+streamlit
+httpx
+requests
+pytest

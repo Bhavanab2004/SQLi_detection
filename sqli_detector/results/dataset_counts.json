@@ -1,0 +1,60 @@
+{
+  "before": [
+    {
+      "source": "api_input",
+      "label": 0,
+      "n": 15000
+    },
+    {
+      "source": "dataset_query",
+      "label": 0,
+      "n": 15000
+    },
+    {
+      "source": "dataset_query",
+      "label": 1,
+      "n": 18000
+    },
+    {
+      "source": "fragment",
+      "label": 1,
+      "n": 9000
+    },
+    {
+      "source": "template",
+      "label": 1,
+      "n": 3000
+    }
+  ],
+  "after": [
+    {
+      "source": "api_input",
+      "label": 0,
+      "n": 8039
+    },
+    {
+      "source": "dataset_query",
+      "label": 0,
+      "n": 15000
+    },
+    {
+      "source": "dataset_query",
+      "label": 1,
+      "n": 18000
+    },
+    {
+      "source": "fragment",
+      "label": 1,
+      "n": 3788
+    },
+    {
+      "source": "template",
+      "label": 1,
+      "n": 2086
+    }
+  ],
+  "total_before": 60000,
+  "total_after": 46913,
+  "conflicting_texts_dropped": 0,
+  "n_groups": 33033
+}

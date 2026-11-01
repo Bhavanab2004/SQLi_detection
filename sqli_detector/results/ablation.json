@@ -1,0 +1,121 @@
+{
+  "model": "LinearSVC",
+  "n_train": 36541,
+  "n_test": 10372,
+  "variants": {
+    "Baseline (char 1-5 TF-IDF, normalised, sublinear)": {
+      "split_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "holdout": {
+        "accuracy": 0.9494949494949495,
+        "precision": 0.9074074074074074,
+        "recall": 1.0,
+        "f1": 0.9514563106796117,
+        "fpr": 0.1,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": 0.9284116331096197
+    },
+    "Word TF-IDF instead of char n-grams": {
+      "split_test": {
+        "accuracy": 0.9147705360586194,
+        "precision": 0.8382783882783883,
+        "recall": 0.9997815640017474,
+        "f1": 0.911934648336322,
+        "fpr": 0.15239903348291337,
+        "fnr": 0.00021843599825251202
+      },
+      "holdout": {
+        "accuracy": 0.8787878787878788,
+        "precision": 0.8032786885245902,
+        "recall": 1.0,
+        "f1": 0.8909090909090909,
+        "fpr": 0.24,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": 0.9977628635346756
+    },
+    "N-gram range reduced to 1-3": {
+      "split_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "holdout": {
+        "accuracy": 0.9696969696969697,
+        "precision": 0.9423076923076923,
+        "recall": 1.0,
+        "f1": 0.9702970297029703,
+        "fpr": 0.06,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": 0.9261744966442953
+    },
+    "Normalisation disabled": {
+      "split_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "holdout": {
+        "accuracy": 0.9292929292929293,
+        "precision": 0.8888888888888888,
+        "recall": 0.9795918367346939,
+        "f1": 0.9320388349514563,
+        "fpr": 0.12,
+        "fnr": 0.02040816326530612
+      },
+      "obfuscated_recall": 0.7785234899328859
+    },
+    "Sublinear TF disabled": {
+      "split_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "fpr": 0.0,
+        "fnr": 0.0
+      },
+      "holdout": {
+        "accuracy": 0.9494949494949495,
+        "precision": 0.9074074074074074,
+        "recall": 1.0,
+        "f1": 0.9514563106796117,
+        "fpr": 0.1,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": 0.9038031319910514
+    },
+    "Fragments + templates excluded from training": {
+      "split_test": {
+        "accuracy": 0.7359236405707674,
+        "precision": 0.6256662566625666,
+        "recall": 1.0,
+        "f1": 0.7697351828499369,
+        "fpr": 0.4727304107697618,
+        "fnr": 0.0
+      },
+      "holdout": {
+        "accuracy": 0.5151515151515151,
+        "precision": 0.5051546391752577,
+        "recall": 1.0,
+        "f1": 0.6712328767123288,
+        "fpr": 0.96,
+        "fnr": 0.0
+      },
+      "obfuscated_recall": 1.0
+    }
+  }
+}
